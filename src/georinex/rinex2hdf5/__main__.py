@@ -12,16 +12,16 @@ are handled seamlessly via TextIO stream.
 Examples:
 
 # batch convert RINEX OBS2 to NetCDF4/HDF5
-rnx2hdf5.py ~/data "*o"
-rnx2hdf5.py ~/data "*o.Z"
-rnx2hdf5.py ~/data "*o.zip"
+rinex2hdf5.py ~/data "*o"
+rinex2hdf5.py ~/data "*o.Z"
+rinex2hdf5.py ~/data "*o.zip"
 
 # batch convert RINEX OBS3 to NetCDF4/HDF5
-rnx2hdf5.py ~/data "*MO.rnx"
-rnx2hdf5.py ~/data "*MO.rnx.gz"
+rinex2hdf5.py ~/data "*MO.rnx"
+rinex2hdf5.py ~/data "*MO.rnx.gz"
 
 # batch convert compressed Hatanaka RINEX files to NetCDF4 / HDF5
-rnx2hdf5.py ~/data "*.crx.gz"
+rinex2hdf5.py ~/data "*.crx.gz"
 """
 
 import argparse
